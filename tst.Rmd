@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "CAMBIOS_MICROCLIMA_HABITATS"
 output: github_document
 ---
@@ -6,6 +7,13 @@ output: github_document
 
 # CÓDIGO
 
+=======
+title: "Untitled"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+>>>>>>> 30dde5ca495c67d153f3b3fbfbce9662bbfdb95b
 ## Cargar librerías
 ```{r, message=FALSE, warning=FALSE}
 library(raster)
@@ -56,6 +64,7 @@ for (j in 1:4){
   ORIENTACION_30TXK17D <- terrain(MDT_30TXK17D, opt = "aspect", unit = "degrees", neighbors = 8)
   ORIENTACION_30TXK64D <- terrain(MDT_30TXK64D, opt = "aspect", unit = "degrees", neighbors = 8)
 ```
+<<<<<<< HEAD
 
 
 # GRÁFICOS PARA CONOCER LAS CUADRÍCULAS
@@ -79,6 +88,8 @@ render_compass(position = "E")
 render_snapshot(clear = TRUE)
 ```
 
+=======
+>>>>>>> 30dde5ca495c67d153f3b3fbfbce9662bbfdb95b
 ### PENDIENTE
 ```{r}
 plot(PENDIENTE_30TUK15B, col=brgr.colors(20))
@@ -91,6 +102,7 @@ histogram(PENDIENTE_30TUK15B,
 plot(ORIENTACION_30TUK15B, col=brgr.colors(20))
 histogram(ORIENTACION_30TUK15B,
           xlab = "orientación (0º-360º)", ylab= "Frecuencia", col="green")
+<<<<<<< HEAD
 ```
 
 
@@ -196,3 +208,6 @@ histogram(ORIENTACION_30TXK64D,
 ```
 
 
+=======
+```
+>>>>>>> 30dde5ca495c67d153f3b3fbfbce9662bbfdb95b

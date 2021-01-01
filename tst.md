@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CAMBIOS\_MICROCLIMA\_HABITATS
 ================
 
@@ -5,6 +6,11 @@ CAMBIOS\_MICROCLIMA\_HABITATS
 
 ## Cargar librerías
 
+=======
+Untitled
+================
+
+>>>>>>> 30dde5ca495c67d153f3b3fbfbce9662bbfdb95b
 ``` r
 library(raster)
 library(tidyverse)
@@ -62,6 +68,7 @@ for (j in 1:4){
   ORIENTACION_30TXK64D <- terrain(MDT_30TXK64D, opt = "aspect", unit = "degrees", neighbors = 8)
 ```
 
+<<<<<<< HEAD
 # GRÁFICOS PARA CONOCER LAS CUADRÍCULAS
 
 ## 30TUK15B GREDOS
@@ -86,20 +93,30 @@ render_snapshot(clear = TRUE)
 
 ![](tst_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
+=======
+>>>>>>> 30dde5ca495c67d153f3b3fbfbce9662bbfdb95b
 ### PENDIENTE
 
 ``` r
 plot(PENDIENTE_30TUK15B, col=brgr.colors(20))
 ```
 
+<<<<<<< HEAD
 ![](tst_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+=======
+![](tst_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+>>>>>>> 30dde5ca495c67d153f3b3fbfbce9662bbfdb95b
 
 ``` r
 histogram(PENDIENTE_30TUK15B,
           xlab = "Pendiente (%)", ylab= "Frecuencia", col="green")
 ```
 
+<<<<<<< HEAD
 ![](tst_files/figure-gfm/unnamed-chunk-4-2.png)<!-- -->
+=======
+![](tst_files/figure-gfm/unnamed-chunk-3-2.png)<!-- -->
+>>>>>>> 30dde5ca495c67d153f3b3fbfbce9662bbfdb95b
 
 ### ORIENTACIÓN
 
@@ -107,13 +124,18 @@ histogram(PENDIENTE_30TUK15B,
 plot(ORIENTACION_30TUK15B, col=brgr.colors(20))
 ```
 
+<<<<<<< HEAD
 ![](tst_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+=======
+![](tst_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+>>>>>>> 30dde5ca495c67d153f3b3fbfbce9662bbfdb95b
 
 ``` r
 histogram(ORIENTACION_30TUK15B,
           xlab = "orientación (0º-360º)", ylab= "Frecuencia", col="green")
 ```
 
+<<<<<<< HEAD
 ![](tst_files/figure-gfm/unnamed-chunk-5-2.png)<!-- -->
 
 ## 30TVL11C GUADARRAMA
@@ -271,3 +293,6 @@ histogram(ORIENTACION_30TXK64D,
 ```
 
 ![](tst_files/figure-gfm/unnamed-chunk-14-2.png)<!-- -->
+=======
+![](tst_files/figure-gfm/unnamed-chunk-4-2.png)<!-- -->
+>>>>>>> 30dde5ca495c67d153f3b3fbfbce9662bbfdb95b
